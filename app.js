@@ -18,12 +18,12 @@ if(nombre === ""){
 
 //Validar que el nombre no este repetido.
 if(amigos.includes(nombreAmigo)){
-    alert(`El nombre ${nombreAmigo}` ya esta en la lista);
+    alert(`El nombre ${nombreAmigo}`, "ya esta en la lista");
     return;
 }
 
 //Agregar el nombre al array de amigos
-amigos.push(nombreAmigo);
+amigos.push(nombreAmigo);git
 
 //Limpiar campo de entrada
 inputAmigo.ariaValueMax = "";
